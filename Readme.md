@@ -1,26 +1,16 @@
 # Making Virtual Keyboard with Vanilla JS
 
-
-
 ### Features
 
 - Easy to Integrate
 - Responsive
 - No Libraries. Vanilla JS
 
-
-
-![image-20200405144244264](/Users/likelion_vietnam/Library/Application Support/typora-user-images/image-20200405144244264.png)
-
-
+![virtualkeyboard](./virtual_keyboard/virtualkeyboard.png)
 
 How Can You Make the Keyboard in the Web?
 
-
-
 The Source Codes Below:
-
-
 
 1. Javascript
 
@@ -260,7 +250,6 @@ const Keyboard = {
 window.addEventListener("DOMContentLoaded", function () {
   Keyboard.init();
 });
-
 ```
 
 2. HTML
@@ -293,10 +282,7 @@ window.addEventListener("DOMContentLoaded", function () {
   </div>
   <script src="./keyboard.js"></script>
 </body>
-
 ```
-
-
 
 3. CSS
 
@@ -398,4 +384,3 @@ h1 {
   background: rgba(0, 0, 0, 0.25);
 }
 ```
-
